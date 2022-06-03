@@ -5,5 +5,4 @@
 
 <mapper namespace="net.scit.travel.dao.CustomerMapper">
 	
-	
 </mapper>
