@@ -5,20 +5,19 @@ import java.util.Scanner;
 public class TravelUI {
 	Scanner sc = new Scanner(System.in);
 
+
 	public TravelUI() {
 		
 		MainMenu();
 	}
-	
 	
 //	CustomerDAO customerDAO = new CustomerDAO();
 //	Goods_ListDAO goods_listDAO = new Goods_ListDAO();
 //	BookingDAO bookingDAO = new BookingDAO();
 //	ReviewDAO reviewDAO = new ReviewDAO();
 	
-	
-	
-	
+
+
 	public void MainMenu() {
 		System.out.println("[===== SCIT 여행사입니다~:) =====]");
 		System.out.println("    ==> 1. 로그인");
@@ -39,4 +38,13 @@ public class TravelUI {
 		System.out.println("1. 지역으로 검색하기    2. 상품명으로 검색하기    3. 글내용으로 검색하기    4. 이전 화면으로");
 	}
 	
+	public TravelUI() {
+		String choice;
+		while(true) {
+			mainMenu();
+			choice = sc.nextLine();
+		}
+	}
+
+
 }
